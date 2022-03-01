@@ -60,8 +60,13 @@ h1.learning
     
     padding-left: 45px;
     padding-left: 0px;
-    -webkit-box-flex: 1; 
+    /* -webkit-box-flex: 1;  */
 
+}
+.section-classroom
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .heading
 {
@@ -69,6 +74,10 @@ h1.learning
     color: #0f1f36;
     font-family:'Inter - Self Hosted ,Arial,sans-serif';
 
+}
+.nav-family
+{
+    font-family:'Inter - Self Hosted ,Arial,sans-serif';
 }
 .para {
     margin-top: 14px;
@@ -150,7 +159,18 @@ div.card
     box-shadow: 5px 6px 6px 2px #e9ecef;
     transform: scale(1.1)
 }
-
+.card-effect
+{
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    /* padding: 25px; */
+    transition: all 0.35s ease;
+}
+.card-effect:hover
+{
+    box-shadow: none;
+    transform: translateY(5px);
+}
 p.line
 {
     color: #000;
@@ -176,11 +196,17 @@ p.line
 
     
 }
-p.subheading
+.subheading
 {
     opacity: .85;
     font-size: 1.25em;
    
+}
+.powerful-para
+{
+    opacity: .85;
+    font-size: 1.0em;
+    
 }
 .curasol-card
 {
@@ -188,7 +214,7 @@ p.subheading
 }
 .power-class
 {
-    position: relative;
+    /* position: relative; */
     padding: 6em 2em;
     background-color: transparent;
 }
@@ -204,7 +230,7 @@ p.subheading
     transition: background-color 200ms ease-in-out;
     width: 100%;
 }
-h5.tick
+.tick
 {
     padding-top: 10px;
     margin-top: 10px;
@@ -212,6 +238,11 @@ h5.tick
 div.section7
 {
     margin: 10px;
+}
+.pd-L
+{
+    padding-left: 160px;
+    
 }
 .school
 {
